@@ -1,6 +1,6 @@
 ---
 title: Introduction to WebUI
-permalink: /docs/
+permalink: /docs-webui/docs/
 redirect_from:
   - /docs-webui/
 ---
