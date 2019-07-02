@@ -3,6 +3,7 @@ version: 3.4.0
 min_ruby_version: 2.4.0
 name: WebUI Library
 description: Front-end libraries developed by Titus
+url: https://titustech.github.io/docs-webui
 repository: https://github.com/TitusTech/webui-lib
 # timezone: America/Los_Angeles
 google_analytics_id: UA-50755011-1
