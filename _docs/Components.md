@@ -1,6 +1,6 @@
 ---
 title: Components
-permalink: /docs/Components/
+permalink: /docs-webui/docs/Components/
 ---
 
 Functionality description for the following services: 

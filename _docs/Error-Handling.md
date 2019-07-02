@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-permalink: /docs/Error-Handling/
+permalink: /docs-webui/docs/Error-Handling/
 ---
 
 ### Specific Error Messages
