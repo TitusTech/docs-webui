@@ -1,6 +1,6 @@
 ---
 title: Item Schedule Config
-permalink: /docs-webui/docs/configurations/Item-Schedule-Config/
+permalink: /docs/configurations/Item-Schedule-Config/
 ---
 
 ### Config File

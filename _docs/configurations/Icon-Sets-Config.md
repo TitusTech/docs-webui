@@ -1,6 +1,6 @@
 ---
 title: Icon Settings Config
-permalink: /docs-webui/docs/configurations/Icon-Sets-Config/
+permalink: /docs/configurations/Icon-Sets-Config/
 ---
 
 ### Config File

@@ -1,6 +1,6 @@
 ---
 title: Item Service Config
-permalink: /docs-webui/docs/configurations/Item-Service-Config/
+permalink: /docs/configurations/Item-Service-Config/
 ---
 
 ### Config File

@@ -1,6 +1,6 @@
 ---
 title: Ng Dynamic Forms
-permalink: /docs-webui/docs/Ng-Dynamic-Forms/
+permalink: /docs/Ng-Dynamic-Forms/
 ---
 
 NG Dynamic Forms is a rapid form development library based on Angular.

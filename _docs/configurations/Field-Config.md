@@ -1,6 +1,6 @@
 ---
 title: Field Config
-permalink: /docs-webui/docs/configurations/Field-Config/
+permalink: /docs/configurations/Field-Config/
 ---
 
 ### Config File

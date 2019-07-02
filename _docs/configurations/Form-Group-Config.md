@@ -1,6 +1,6 @@
 ---
 title: Form Group Config
-permalink: /docs-webui/docs/configurations/Form-Group-Config/
+permalink: /docs/configurations/Form-Group-Config/
 ---
 
 ### Description
