@@ -1,6 +1,6 @@
 ---
 title: Item Toolbar Config
-permalink: /docs/configurations/Item-Toolbar-Config/
+permalink: /docs-webui/docs/configurations/Item-Toolbar-Config/
 ---
 
 ### Config File

@@ -1,6 +1,6 @@
 ---
 title: Global Setting Configuration
-permalink: /docs/configurations/Global-Setting-Configuration/
+permalink: /docs-webui/docs/configurations/Global-Setting-Configuration/
 ---
 
 ### Global Setting Configuration

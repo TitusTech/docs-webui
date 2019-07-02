@@ -34,14 +34,14 @@ defaults:
   values:
     image: "/img/titus-logo.png"
 
-# plugins:
-# - jekyll-avatar
-# - jekyll-feed
-# - jekyll-mentions
-# - jekyll-redirect-from
-# - jekyll-seo-tag
-# - jekyll-sitemap
-# - jemoji
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
 
 feed:
   categories:
