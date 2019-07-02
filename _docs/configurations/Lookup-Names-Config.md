@@ -1,6 +1,6 @@
 ---
 title: Lookup Names Config
-permalink: /docs/configurations/Lookup-Names-Config/
+permalink: /docs-webui/docs/configurations/Lookup-Names-Config/
 ---
 
 ### Config File

@@ -1,6 +1,6 @@
 ---
 title: Table in Form Config
-permalink: /docs/configurations/Table-in-Form-Config/
+permalink: /docs-webui/docs/configurations/Table-in-Form-Config/
 ---
 
 ### Config File

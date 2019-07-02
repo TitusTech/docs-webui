@@ -4,12 +4,4 @@
 - title: Docs
   link: /docs-webui/docs/
   show_on_mobile: true
-- title: Resources
-  link: /docs-webui/resources/
-  show_on_mobile: true
-- title: Showcase
-  link: /docs-webui/showcase/
-  show_on_mobile: false
-- title: News
-  link: /docs-webui/news/
-  show_on_mobile: true
+

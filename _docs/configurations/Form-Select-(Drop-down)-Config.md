@@ -1,6 +1,6 @@
 ---
 title: Form Select (Drop-down) Config
-permalink: /docs/configurations/Form-Select-(Drop-down)-Config/
+permalink: /docs-webui/docs/configurations/Form-Select-(Drop-down)-Config/
 ---
 
 ### Config File
