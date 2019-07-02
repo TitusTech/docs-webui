@@ -1,7 +1,7 @@
 - title: Getting Started
   docs:
     - link: /docs/
-    - link: /docs/Introduction-to-WebUI/
+    - link: /docs-webui/docs/Introduction-to-WebUI/
     - link: /docs-webui/docs/Creating-Protractor-Test/
     - link: /docs-webui/docs/Deployment-to-Production/
     - link: /docs-webui/docs/Environment-Settings/
