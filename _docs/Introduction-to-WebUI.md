@@ -1,8 +1,6 @@
 ---
 title: Introduction to WebUI
 permalink: /docs-webui/docs/
-redirect_from:
-  - /docs-webui/
 ---
 
 ### Visual structure: discussion on the main components
