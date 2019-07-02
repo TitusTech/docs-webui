@@ -1,6 +1,6 @@
 ---
 title: Creating Protractor Test
-permalink: /docs-webui/docs/Creating-Protractor-Test/
+permalink: /docs/Creating-Protractor-Test/
 ---
 
 Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor run
