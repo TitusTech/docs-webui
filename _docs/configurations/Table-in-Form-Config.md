@@ -1,12 +1,12 @@
 ---
-title: Table-in-Form-Config
+title: Table in Form Config
 permalink: /docs/configurations/Table-in-Form-Config/
 ---
 
-# Config File
+### Config File
 `src/data/${ItemType}/${TableName}TableInForm.json`
 
-# Example
+### Example
 ```
 {
   "caption":"Products",
@@ -44,14 +44,14 @@ permalink: /docs/configurations/Table-in-Form-Config/
 }
 
 ```
-# Caption
+### Caption
 **Config for caption**
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
 | `caption?` | `string` | customized title of the table |
 
-# Columns Sorting
+### Columns Sorting
 **Config for Add Row and Remove Row buttons**
 
 | Field | Type | Meaning | 
@@ -61,7 +61,7 @@ permalink: /docs/configurations/Table-in-Form-Config/
 | `sortOrder?` | `number` | Enter sortOrder if there is a sortField and sortMode is "single". Options are 1 for ascending order and -1 for descending.|
 | `sortFields?` | `array of fields` | List the fields if sortMode is "multiple". These are the fields or columns that will be used to sort the table. |
 
-# SortFields
+### SortFields
 **Config for sortFields**
 
 | Field | Type | Meaning |
@@ -69,7 +69,7 @@ permalink: /docs/configurations/Table-in-Form-Config/
 | `field` | `string` | This is the name of the field or column that can be sorted. |
 | `order` | `string` | Options are 1 for ascending order or -1 for descending. |
 
-# Column
+### Column
 **Config for columns**
 
 | Field | Type | Meaning |
@@ -83,7 +83,7 @@ permalink: /docs/configurations/Table-in-Form-Config/
 | `initFormula?` | string | A Javascript expression that is being evaluated before creating the table.<br/><br/>List of variables that can be used inside the `initFormula` property: <br/><ul><li>`index` - Contains the current row index</li><li>`element` - An Object that holds the configuration of the column element</li><li>`rowData` - Contains the data of the row</li><li>`row` - An Object that will be used when creating the table</li></ul> |
 | `sortableColumnDisabled?` | `boolean` | If set to true then enable the sorting in the particular column |
 
-# Add Row and Remove Row buttons
+### Add Row and Remove Row buttons
 **Config for Add Row and Remove Row buttons**
 
 | Field | Type | Meaning |

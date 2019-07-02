@@ -3,7 +3,7 @@ title: Services
 permalink: /docs/Services/
 ---
 
-## Functionality description for the following services: 
+### Functionality description for the following services: 
 1. authentication-interceptor.service
     * Intercepts HttpRequest and check authentication. Redirect to login page if HttpResponse contains errors 401 or 504
 1. authorisation.service
@@ -36,7 +36,7 @@ permalink: /docs/Services/
 1. util.service
    * Common services like setting of headers in the request.
 
-## Discussion on pipes
+### Discussion on pipes
 
 Every application starts out with what seems like a simple task: get data, transform them, and show them to users. Getting data could be as simple as creating a local variable or as complex as streaming data over a WebSocket.
 
@@ -47,7 +47,7 @@ Clearly, some values benefit from a bit of editing. You may notice that you desi
 Introducing Angular pipes, a way to write display-value transformations that you can declare in your HTML.
 
 Example:
-## ui-config.service.ts
+### ui-config.service.ts
 `
 		if ( ! format ) {
 		  return value;

@@ -1,9 +1,9 @@
 ---
-title: Deployment-to-Production
+title: Deployment to Production
 permalink: /docs/Deployment-to-Production/
 ---
 
-## Optimize for production
+### Optimize for production
 
 Although deploying directly from the development environment works, you can generate an optimized build with additional CLI command line flags, starting with --prod.
 Build with --prod

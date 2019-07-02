@@ -1,14 +1,14 @@
 ---
-title: Form-Button-Config
+title: Form Button Config
 permalink: /docs/configurations/Form-Button-Config/
 ---
 
 For more info see https://github.com/TitusTech/webui-lib/issues/486
 
-# Config File
+### Config File
 `src/data/<item>/formButtons.json`
 
-# Format
+### Format
 ```
 {
   "Activities": [
@@ -37,7 +37,7 @@ For more info see https://github.com/TitusTech/webui-lib/issues/486
 }
 
 ```
-# Button Configurations
+### Button Configurations
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |

@@ -1,12 +1,12 @@
 ---
-title: Item-Toolbar-Config
+title: Item Toolbar Config
 permalink: /docs/configurations/Item-Toolbar-Config/
 ---
 
-# Config File
+### Config File
 `src/data/ItemToolbarConfig.json`
 
-# Format
+### Format
 ```
 {
   "noForms": {
@@ -16,7 +16,7 @@ permalink: /docs/configurations/Item-Toolbar-Config/
 }
 
 ```
-# Button Activity Names
+### Button Activity Names
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |

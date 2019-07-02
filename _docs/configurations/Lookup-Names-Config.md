@@ -1,13 +1,13 @@
 ---
-title: Lookup-Names-Config
+title: Lookup Names Config
 permalink: /docs/configurations/Lookup-Names-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/lookupNames.json`
 
-# Format
+### Format
 ```
 {
   "column" :
@@ -26,7 +26,7 @@ permalink: /docs/configurations/Lookup-Names-Config/
    ]
 }
 ```
-# Lookup Name
+### Lookup Name
 **Config for lookup names**
 
 | Field | Type | Meaning |

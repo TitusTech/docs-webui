@@ -1,12 +1,12 @@
 ---
-title: Form-Select-(Drop-down)-Config
+title: Form Select (Drop-down) Config
 permalink: /docs/configurations/Form-Select-(Drop-down)-Config/
 ---
 
-# Config File
+### Config File
 `src/data/${ItemType}/formSelect${JobName}.json`
 
-# Example
+### Example
 ```
 {
     "fields": [{
@@ -18,7 +18,7 @@ permalink: /docs/configurations/Form-Select-(Drop-down)-Config/
 }
 
 ```
-# Column
+### Column
 **Config for fields**
 
 | Field | Type | Meaning |

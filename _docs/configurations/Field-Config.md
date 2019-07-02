@@ -1,16 +1,16 @@
 ---
-title: Field-Config
+title: Field Config
 permalink: /docs/configurations/Field-Config/
 ---
 
-# Config File
+### Config File
 `src/data/${ItemType}/itemCollection${CollectionName}.json`
 
 `src/data/${ItemType}/masterOutcomeView.json`
 
 `src/data/${ItemType}/itemList.json`
 
-# Example
+### Example
 ```
 {"column": [
     {"source": "itemField", "field": "RadioButtonWithFileInvoice", "width": 60, "configurable": true, "icon": "fa fa-file-invoice" },
@@ -27,9 +27,9 @@ permalink: /docs/configurations/Field-Config/
   "sort": {"field": "Name" , "order": "asc" }
 }
 ```
-# Field descriptions
+### Field descriptions
 
-### `source`
+#### `source`
 
 | Value | Meaning |
 | ------------- | ------------- |
@@ -42,7 +42,7 @@ permalink: /docs/configurations/Field-Config/
 
 * For details see issue [#122 Collection item lists configurable](https://github.com/kovax/webui-primeng/issues/122)
 
-### `format`
+#### `format`
 
 | Value | Meaning |
 | ------------- | ------------- |
@@ -54,7 +54,7 @@ permalink: /docs/configurations/Field-Config/
 | `multilineFormat` | For lines with \n just add css class multilineFormat which replaces \n to line breaks |
 | `decimal {scale}` | The value will be displayed with exactly `{scale}` decimal places. For example if we have `format='decimal 2'`, the value will be formatted to 2 decimal places |
 
-### `formula`
+#### `formula`
 
 * The value of this field is an expression that is evaluated in the item list to determine the value to be displayed.
 * E.g. the expression `(value.content === 'none') ? '' : value.content` will display an empty string if the value of `value.content` is `none`. If not, the value of `value.content` will be displayed.
@@ -66,14 +66,14 @@ permalink: /docs/configurations/Field-Config/
 | `value.field` | the field name of the data member of the value variable |
 | `value.content` | the value of the data member of the value variable |
 
-### `icon`
+#### `icon`
 | Value | Meaning |
 | ------------- | ------------- |
 | `fontawesome icon` | field renders an icon before value(ex. `fa-square`) |
 | `iconSets` | field renders an icon based on the value [(Icon Sets Config)](https://github.com/TitusTech/webui-lib/wiki/Icon-Sets-Config) |
 
 
-### `type`
+#### `type`
 | Value | Meaning |
 | ------------- | ------------- |
 | `checkBox` | field is shown as checkbox |

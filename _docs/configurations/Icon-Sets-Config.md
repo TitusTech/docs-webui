@@ -1,12 +1,12 @@
 ---
-title: Icon-Sets-Config
+title: Icon Settings Config
 permalink: /docs/configurations/Icon-Sets-Config/
 ---
 
-# Config File
+### Config File
 `src/data/IconSets.json`
 
-# Example
+### Example
 ```
 {
   "columns": [
@@ -26,7 +26,7 @@ permalink: /docs/configurations/Icon-Sets-Config/
 }
 
 ```
-# Column
+### Column
 **Config for columns**
 
 | Field | Type | Meaning |

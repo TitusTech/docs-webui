@@ -1,9 +1,9 @@
 ---
-title: Multi-Level-Outcomes
+title: Multi Level Outcomes
 permalink: /docs/Multi-Level-Outcomes/
 ---
 
-# Reporting DB Table Schema
+### Reporting DB Table Schema
 For the array fields and nested structs, their data are added to the database with in the table `<ItemType>_DATA`, which has the following schema
 
 | Column     | Data Type | Description |
@@ -12,7 +12,7 @@ For the array fields and nested structs, their data are added to the database wi
 | DATA_XPATH | VARCHAR   | The xpath from the outcome referring to the  value |
 | DATA_VALUE | VARCHAR   | The actual value of the field |
 
-# Example Schema
+### Example Schema
 Suppose we have the following schema
 ```
 struct(name: 'Employee') { 

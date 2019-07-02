@@ -1,15 +1,15 @@
 ---
-title: Form-Group-Config
+title: Form Group Config
 permalink: /docs/configurations/Form-Group-Config/
 ---
 
 ### Description
 Overrides the `webui-lib` form groups css. It can also be used to configure the css of individual form groups.
 
-# Config File
+### Config File
 `src/data/${ItemType}/formGroup.json`
 
-# Example
+### Example
 ```{
 "Group": [{
     "Group-2": [{
@@ -54,7 +54,7 @@ Overrides the `webui-lib` form groups css. It can also be used to configure the 
 }
 ```
 
-# Form Group Configurations
+### Form Group Configurations
 
 | Configuration | Meaning |
 | ------------- | ------------- |

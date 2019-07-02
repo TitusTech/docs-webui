@@ -2,26 +2,19 @@
   docs:
     - link: /docs/
     - link: /docs/Introduction-to-WebUI/
-    - link: /docs/Collection-Config/
-    - link: /docs/Components/
-    - link: /docs/Config-File-Formats/
     - link: /docs/Creating-Protractor-Test/
     - link: /docs/Deployment-to-Production/
     - link: /docs/Environment-Settings/
-    - link: /docs/Error-Handling/
-    - link: /docs/Field-Config/
-    - link: /docs/Form-Button-Config/
-    - link: /docs/Form-Group-Config/
-    - link: /docs/Form-Select-(Drop-down)-Config/
-    - link: /docs/Global-Setting-Configuration/
     - link: /docs/Global-Setting-Service/
-    - link: /docs/Guards/
-    - link: /docs/Icon-Sets-Config/
-    - link: /docs/Introduction-to-using-PrimeNG’s-angular-components/
-    - link: /docs/Introduction-to-WebUI/
-    - link: /docs/Multi-Level-Outcomes/
-    - link: /docs/Ng-Dynamic-Forms/
+    - link: /docs/Multi-Level-Outcomes/    
+- title: What makes WebUI?
+  docs:    
+    - link: /docs/Components/
     - link: /docs/Services/
+    - link: /docs/Guards/
+    - link: /docs/Error-Handling/
+    - link: /docs/Ng-Dynamic-Forms/
+    - link: /docs/Introduction-to-using-PrimeNG-angular-components/
 - title: Configuration File Formats
   docs:
     - link: /docs/Config-File-Formats/

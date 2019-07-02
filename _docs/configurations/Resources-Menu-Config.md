@@ -1,13 +1,13 @@
 ---
-title: Resources-Menu-Config
+title: Resources Menu Config
 permalink: /docs/configurations/Resources-Menu-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/resourcesMenu.json`
 
-# Format
+### Format
 ```
 {
   "column" :
@@ -20,7 +20,7 @@ permalink: /docs/configurations/Resources-Menu-Config/
     ]
 }
 ```
-# Resource Menu
+### Resource Menu
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
 | `label` | `string` | Label of the menu |

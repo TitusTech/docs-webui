@@ -1,12 +1,11 @@
 ---
-title: Global-Setting-Service
+title: Global Setting Service
 permalink: /docs/Global-Setting-Service/
 ---
 
-# Global Setting Service
 `src/lib/service/global-settings.service.ts`
 
-# Public Method of Global Setting Service
+### Public Method of Global Setting Service
 
 Method
 

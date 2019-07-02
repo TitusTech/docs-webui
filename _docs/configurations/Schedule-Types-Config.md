@@ -1,13 +1,13 @@
 ---
-title: Schedule-Types-Config
+title: Schedule Types Config
 permalink: /docs/configurations/Schedule-Types-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/scheduleTypes.json`
 
-# Format
+### Format
 ```
 {
   "types" :
@@ -31,7 +31,7 @@ permalink: /docs/configurations/Schedule-Types-Config/
    ]
 }
 ```
-# Types Config
+### Types Config
 Kinds or Types of schedules
 
 | Field | Type | Meaning |
@@ -58,7 +58,7 @@ Kinds or Types of schedules
    ]
 }
 ```
-# Schedules Config
+### Schedules Config
 Config for display of schedule calendar and settings
 
 | Field | Type | Meaning |

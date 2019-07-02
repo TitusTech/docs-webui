@@ -1,13 +1,13 @@
 ---
-title: Item-Schedule-Config
+title: Item Schedule Config
 permalink: /docs/configurations/Item-Schedule-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/itemScheduleExceptions.json`
 
-# Format
+### Format
 ```
 {
   "calendarEventExceptions" :
@@ -35,7 +35,7 @@ permalink: /docs/configurations/Item-Schedule-Config/
    ]
 }
 ```
-# Calendar Events Config
+### Calendar Events Config
 
 Config where to get calendar events
 
@@ -49,7 +49,7 @@ Config where to get calendar events
 
 `? = optional fields`
 
-# Example
+### Example
 ```
 {
   "calendarEventExceptions" :
@@ -72,7 +72,7 @@ Config where to get calendar events
    ]
 }
 ```
-# Redirect Routes Config
+### Redirect Routes Config
 
 Config for redirection of event at calendar
 
@@ -81,7 +81,7 @@ Config for redirection of event at calendar
 | `name` | `string` | event type |
 | `path` | `string` | path to redirected |
 
-# Example
+### Example
 ```
 {
   "redirectRoutes" :

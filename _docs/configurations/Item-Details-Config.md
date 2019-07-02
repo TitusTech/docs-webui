@@ -1,13 +1,13 @@
 ---
-title: Item-Details-Config
+title: Item Details Config
 permalink: /docs/configurations/Item-Details-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/itemDetailsExceptions.json`
 
-# Format
+### Format
 ```
   {
     "detailsExceptions": [
@@ -22,7 +22,7 @@ permalink: /docs/configurations/Item-Details-Config/
     ]
   }
 ```
-# Steps config
+### Steps config
 
 Config for displaying p-steps in item details
 
@@ -35,7 +35,7 @@ Config for displaying p-steps in item details
 | `factory` | `string` | factory name of the config |
 | `steps` | `strings` | steps name of the config |
 
-# Example
+### Example
 ```
   {
     "detailsExceptions": [

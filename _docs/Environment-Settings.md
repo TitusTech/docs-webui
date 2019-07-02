@@ -1,12 +1,11 @@
 ---
-title: Environment-Settings
+title: Environment Settings
 permalink: /docs/Environment-Settings/
 ---
 
-# Environment Settings
 `src/environments/environment.ts`
 
-# Sample Environment Settings
+### Sample Environment Settings
 ```
 export const environment = {
   production: true,

@@ -1,13 +1,13 @@
 ---
-title: Workflow-Menu-Config
+title: Workflow Menu Config
 permalink: /docs/configurations/Workflow-Menu-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/workflowMenu.json`
 
-# Format
+### Format
 ```
 {
   "column" :
@@ -20,7 +20,7 @@ permalink: /docs/configurations/Workflow-Menu-Config/
     ]
 }
 ```
-# Workflow Menu
+### Workflow Menu
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |

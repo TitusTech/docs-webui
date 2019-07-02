@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: /docs/
+permalink: /docs/Home
 ---
 
 WebUI - Angular front-end

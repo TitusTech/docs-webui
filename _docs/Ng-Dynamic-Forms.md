@@ -1,5 +1,5 @@
 ---
-title: Ng-Dynamic-Forms
+title: Ng Dynamic Forms
 permalink: /docs/Ng-Dynamic-Forms/
 ---
 

@@ -1,20 +1,20 @@
 ---
-title: Collection-Config
+title: Collection Config
 permalink: /docs/configurations/Collection-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/{itemType}/itemCollection.json`
 
-# Format
+### Format
 ```
 [
   {"name": "Children"             , "header": "Children"               , "icon": "fa fa-child" },
   {"name": "PurchaseOrderRows"    , "header": "Purchase Order Rows"    , "icon": "fa fa-cash-register" }
 ]  
 ```
-# Steps config
+### Steps config
 
 Config for displaying p-steps in item details
 

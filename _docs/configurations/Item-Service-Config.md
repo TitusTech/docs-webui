@@ -1,14 +1,14 @@
 ---
-title: Item-Service-Config
+title: Item Service Config
 permalink: /docs/configurations/Item-Service-Config/
 ---
 
-# Config File
+### Config File
 
 `src/data/itemServiceExceptions.json`
 
 
-# Format
+### Format
 ```
 {
   "createExceptions":
@@ -27,7 +27,7 @@ permalink: /docs/configurations/Item-Service-Config/
     ]
 }
 ```
-# Create Item Config
+### Create Item Config
 Specific config for creating an item at item service
 
 | Field | Type | Meaning |
@@ -47,7 +47,7 @@ Specific config for creating an item at item service
     ]
 }
 ```
-# Collection Config
+### Collection Config
 Specific config for getting collections at item service
 
 | Field | Type | Meaning |

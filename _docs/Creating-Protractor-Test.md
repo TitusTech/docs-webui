@@ -1,12 +1,12 @@
 ---
-title: Creating-Protractor-Test
+title: Creating Protractor Test
 permalink: /docs/Creating-Protractor-Test/
 ---
 
 Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor run
 
 s tests against your application running in a real browser, interacting with it as a user would.
-## Setup
+### Setup
 
 Use npm to install Protractor globally with:
 
@@ -23,7 +23,7 @@ webdriver-manager update
 To execute the end to end testing:
 npm e2e
 
-## app.e2e-spec.ts
+### app.e2e-spec.ts
 `			batch     = new Batch();
 		  });
 		 
@@ -96,7 +96,7 @@ npm e2e
 		  });
 		});`
 
-## Batch.po.ts
+### Batch.po.ts
 `'webuilib-uuid-link[ng-reflect-input="11111111"]'))
   }
  
@@ -141,7 +141,7 @@ npm e2e
   }
 }`
 
-## Dashboard.po.ts
+### Dashboard.po.ts
 `import { browser, element, by} from 'protractor';
  
 export class Dashboard {
@@ -155,7 +155,7 @@ export class Dashboard {
   }
 }`
 
-## Login.po.ts
+### Login.po.ts
 `import { browser, element, by} from 'protractor';
  
 export class Login {
