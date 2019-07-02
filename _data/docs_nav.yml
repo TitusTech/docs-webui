@@ -1,0 +1,20 @@
+- title: Getting Started
+  docs:
+    - link: /docs/
+    - link: /docs/Introduction-to-WebUI/
+    - link: /docs/Creating-Protractor-Test/
+    - link: /docs/Deployment-to-Production/
+    - link: /docs/Environment-Settings/
+    - link: /docs/Global-Setting-Service/
+    - link: /docs/Multi-Level-Outcomes/    
+- title: What makes WebUI?
+  docs:    
+    - link: /docs/Components/
+    - link: /docs/Services/
+    - link: /docs/Guards/
+    - link: /docs/Error-Handling/
+    - link: /docs/Ng-Dynamic-Forms/
+    - link: /docs/Introduction-to-using-PrimeNG-angular-components/
+- title: Configuration File Formats
+  docs:
+    - link: /docs/Config-File-Formats/
