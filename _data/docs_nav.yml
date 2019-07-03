@@ -17,4 +17,20 @@
     - link: /docs/Introduction-to-using-PrimeNG-angular-components/
 - title: Configuration File Formats
   docs:
-    - link: /docs/Config-File-Formats/
+    - link: /docs/configurations/Form-Button-Config/
+    - link: /docs/configurations/Form-Group-Config/
+    - link: /docs/configurations/Form-Select-(Drop-down)-Config/
+    - link: /docs/configurations/Icon-Sets-Config/
+    - link: /docs/configurations/Collection-Config/
+    - link: /docs/configurations/Field-Config/
+    - link: /docs/configurations/Item-Details-Config/
+    - link: /docs/configurations/Item-Schedule-Config/
+    - link: /docs/configurations/Item-Service-Config/
+    - link: /docs/configurations/Item-Toolbar-Config/
+    - link: /docs/configurations/Lookup-Names-Config/
+    - link: /docs/configurations/Resources-Menu-Config/
+    - link: /docs/configurations/Schedule-Types-Config/
+    - link: /docs/configurations/Workflow-Menu-Config/
+    - link: /docs/configurations/Form-Button-Config/
+    - link: /docs/configurations/Table-in-Form-Config/
+    - link: /docs/configurations/Global-Setting-Configuration/
