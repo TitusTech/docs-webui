@@ -5,7 +5,7 @@
         <ul>
           {% for item in section.docs %}
             {% assign url = item.link | prepend: "/docs-webui" %}
-            {% assign p = site.documents | where: "url", url | first %}
+            {% assign p = site.documents | where: "url", item.link | first %}
             <li {%- if page.url == p.url %} class="current" {%- endif %}>
               <a href="{{ p.url }}">
                 {{ p.menu_name | default: p.title }}
