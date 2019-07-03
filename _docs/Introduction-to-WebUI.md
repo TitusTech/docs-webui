@@ -1,6 +1,6 @@
 ---
 title: Introduction to WebUI
-permalink: /docs-webui/docs/
+permalink: /docs/
 ---
 
 ### Visual structure: discussion on the main components
