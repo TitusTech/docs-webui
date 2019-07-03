@@ -4,6 +4,7 @@ min_ruby_version: 2.4.0
 name: WebUI Library
 description: Front-end libraries developed by Titus
 repository: https://github.com/TitusTech/docs-webui
+branch: gh-pages
 # sub-directory
 doclocation: /docs-webui 
 # timezone: America/Los_Angeles
