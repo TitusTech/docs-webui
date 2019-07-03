@@ -1,6 +1,6 @@
 ---
 title: Deployment to Production
-permalink: /docs/Deployment-to-Production/
+permalink: /docs-webui/docs/Deployment-to-Production/
 ---
 
 ### Optimize for production

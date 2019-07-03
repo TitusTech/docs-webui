@@ -1,6 +1,6 @@
 ---
 title: Workflow Menu Config
-permalink: /docs/configurations/Workflow-Menu-Config/
+permalink: /docs-webui/docs/configurations/Workflow-Menu-Config/
 ---
 
 ### Config File

@@ -1,6 +1,6 @@
 ---
 title: Collection Config
-permalink: /docs/configurations/Collection-Config/
+permalink: /docs-webui/docs/configurations/Collection-Config/
 ---
 
 ### Config File

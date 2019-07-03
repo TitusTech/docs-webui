@@ -1,6 +1,6 @@
 ---
 title: Global Setting Service
-permalink: /docs/Global-Setting-Service/
+permalink: /docs-webui/docs/Global-Setting-Service/
 ---
 
 `src/lib/service/global-settings.service.ts`
