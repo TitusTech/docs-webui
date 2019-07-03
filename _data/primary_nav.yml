@@ -1,7 +1,7 @@
 - title: Home
-  link: /
+  link: /docs-webui/
   show_on_mobile: true
 - title: Docs
-  link: /docs/
+  link: /docs-webui/docs/
   show_on_mobile: true
 
