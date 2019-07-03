@@ -3,38 +3,26 @@ title: Services
 permalink: /docs/Services/
 ---
 
-### Functionality description for the following services: 
-1. authentication-interceptor.service
-    * Intercepts HttpRequest and check authentication. Redirect to login page if HttpResponse contains errors 401 or 504
-1. authorisation.service
-   * Handles login authorization.
-1. breadcrumbs.service
-   * Handles breadcrumbs. Push or removes breadcrumbs.
-1. domain-path.service
-   * Keeps track of domain path
-1. form-edit.service
-   * Keeps track of the boolean value that tells if the current form is edited or not.
-1. form-save.service
-   * Emits event when saving a form. Those components and services listening to that event will be triggered.
-1. global-settings.service	
-   * Handles global settings of the WebUI. This is mostly like a switch turning on/off some of the features like debugging options, dynamic buttons, export buttons, details view, view points as well as getting values of project environment and base url.
-1. item-name-lookup.service
-   
-1. item.service
-   * Gets data and related information related to an item. Also perform creation of an item in Cristal.
-1. lookup.service
-   * Performs item search in a domain
-1. menu-items.service
-   * Retrieves activities from a workflow and handles tracking of activity. If an activity has previously been selected then it will be removed from the menu of activities.
-1. notification.service
-   * Handles HttpErrorResponse and creates error messages.
-1. resource.service
-   * Retrieves schema related information, Schema Form Template and Schema View Template
-1. schedule-settings.service
-1. ui-config.service
-   * Provides necessary UI configuration in the form of json returned from rest api that will be used another service or components.
-1. util.service
-   * Common services like setting of headers in the request.
+Functionality description for the following services: 
+
+| Service File | Description |
+| ------------- | ------------- |
+| authentication-interceptor.service | Intercepts HttpRequest and check authentication. Redirect to login page if HttpResponse contains errors 401 or 504 |
+| authorisation.service | Handles login authorization. |
+| breadcrumbs.service | Handles breadcrumbs. Push or removes breadcrumbs. |
+| domain-path.service | Keeps track of domain path |
+| form-edit.service | Keeps track of the boolean value that tells if the current form is edited or not. |
+| form-save.service | Emits event when saving a form. Those components and services listening to that event will be triggered. |
+| global-settings.service	| Handles global settings of the WebUI. This is mostly like a switch turning on/off some of the features like debugging options, dynamic buttons, export buttons, details view, view points as well as getting values of project environment and base url. |
+| item-name-lookup.service | |
+| item.service | Gets data and related information related to an item. Also perform creation of an item in Cristal. |
+| lookup.service | Performs item search in a domain |
+| menu-items.service | Retrieves activities from a workflow and handles tracking of activity. If an activity has previously been selected then it will be removed from the menu of activities. |
+| notification.service | Handles HttpErrorResponse and creates error messages. |
+| resource.service | Retrieves schema related information, Schema Form Template and Schema View Template |
+| schedule-settings.service | | 
+| ui-config.service | Provides necessary UI configuration in the form of json returned from rest api that will be used another service or components. |
+| util.service | Common services like setting of headers in the request. |
 
 ### Discussion on pipes
 

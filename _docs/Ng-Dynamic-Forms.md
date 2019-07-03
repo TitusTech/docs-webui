@@ -12,4 +12,4 @@ Out of the box support is provided for all popular UI libraries including Bootst
 
 Additional Information
 
-https://github.com/udos86/ng-dynamic-forms
+[Official documentation of NG Dynamic Forms](https://github.com/udos86/ng-dynamic-forms)

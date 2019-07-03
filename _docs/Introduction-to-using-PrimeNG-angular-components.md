@@ -25,6 +25,6 @@ import {AccordionModule} from 'primeng/accordion';     //accordion and accordion
 import {MenuItem} from 'primeng/api';                 //api
 
 
-### Additional Information on Components
+### Additional Information
 
-https://www.primefaces.org/primeng/#/
+[Official website of Primefaces](https://www.primefaces.org/primeng/#/)
