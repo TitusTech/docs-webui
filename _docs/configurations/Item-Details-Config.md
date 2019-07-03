@@ -1,6 +1,6 @@
 ---
 title: Item Details Config
-permalink: /docs-webui/docs/configurations/Item-Details-Config/
+permalink: /docs/configurations/Item-Details-Config/
 ---
 
 ### Config File

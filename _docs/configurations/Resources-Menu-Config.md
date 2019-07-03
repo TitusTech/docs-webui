@@ -1,6 +1,6 @@
 ---
 title: Resources Menu Config
-permalink: /docs-webui/docs/configurations/Resources-Menu-Config/
+permalink: /docs/configurations/Resources-Menu-Config/
 ---
 
 ### Config File

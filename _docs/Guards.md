@@ -1,6 +1,6 @@
 ---
 title: Guards
-permalink: /docs-webui/docs/Guards/
+permalink: /docs/Guards/
 ---
 
 ### Functionality description for the following:

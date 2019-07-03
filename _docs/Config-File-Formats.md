@@ -1,6 +1,6 @@
 ---
 title: Config File Formats
-permalink: /docs-webui/docs/Config-File-Formats/
+permalink: /docs/Config-File-Formats/
 ---
 
 1. [Form Button Config](/docs-webui/docs/configurations/Form-Button-Config/)

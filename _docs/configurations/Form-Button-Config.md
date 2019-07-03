@@ -1,6 +1,6 @@
 ---
 title: Form Button Config
-permalink: /docs-webui/docs/configurations/Form-Button-Config/
+permalink: /docs/configurations/Form-Button-Config/
 ---
 
 For more info see https://github.com/TitusTech/webui-lib/issues/486

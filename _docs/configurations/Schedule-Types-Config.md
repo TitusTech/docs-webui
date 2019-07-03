@@ -1,6 +1,6 @@
 ---
 title: Schedule Types Config
-permalink: /docs-webui/docs/configurations/Schedule-Types-Config/
+permalink: /docs/configurations/Schedule-Types-Config/
 ---
 
 ### Config File

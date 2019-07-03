@@ -1,6 +1,6 @@
 ---
 title: Multi Level Outcomes
-permalink: /docs-webui/docs/Multi-Level-Outcomes/
+permalink: /docs/Multi-Level-Outcomes/
 ---
 
 ### Reporting DB Table Schema

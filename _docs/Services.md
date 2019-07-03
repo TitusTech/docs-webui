@@ -1,6 +1,6 @@
 ---
 title: Services
-permalink: /docs-webui/docs/Services/
+permalink: /docs/Services/
 ---
 
 ### Functionality description for the following services: 

@@ -1,6 +1,6 @@
 ---
 title: Environment Settings
-permalink: /docs-webui/docs/Environment-Settings/
+permalink: /docs/Environment-Settings/
 ---
 
 `src/environments/environment.ts`

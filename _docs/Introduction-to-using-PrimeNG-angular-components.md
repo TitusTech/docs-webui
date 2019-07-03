@@ -1,6 +1,6 @@
 ---
 title: Introduction to using PrimeNG’s angular components
-permalink: /docs-webui/docs/Introduction-to-using-PrimeNG-angular-components/
+permalink: /docs/Introduction-to-using-PrimeNG-angular-components/
 ---
 
 PrimeNG is a rich set of open source native Angular UI components.
