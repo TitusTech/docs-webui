@@ -13,7 +13,39 @@ extra_css:
     - css/extra.css
 
 nav:
-    - Overview:
-        - Cristal-iSE Documentation: index.md
+    - Getting Started:
+        - Introduction to WebUI: Introduction-to-WebUI.md 
+        - Creating Protractor Test: Creating-Protractor-Test.md
+        - Deployment to Production: Deployment-to-Production.md
+        - Environment Settings: Environment-Settings.md
+        - Global Setting Service: Global-Setting-Service.md
+        - Multi Level Outcomes: Multi-Level-Outcomes.md
+    - What makes WebUI?: 
+        - Components: Components.md
+        - Services: Services.md
+        - Guards: Guards.md
+        - Error Handling: Error-Handling.md
+        - Ng Dynamic Forms: Ng-Dynamic-Forms.md
+        - Introduction to using PrimeNG’s angular components: Introduction-to-using-PrimeNG-angular-components.md
+    - Configuration File Formats:
+        - Form Button Config: Form-Button-Config.md
+        - Form Group Config: Form-Group-Config.md
+        - Form Select (Drop-down) Config: Form-Select-(Drop-down)-Config.md
+        - Icon Settings Config: Icon-Settings-Config.md
+        - Collection Config: Collection-Config.md
+        - Field Config: Field-Config.md
+        - Item Details Config: Item-Details-Config.md
+        - Item Schedule Config: Item-Schedule-Config.md
+        - Item Service Config: Item-Service-Config.md
+        - Item Toolbar Config: Item-Toolbar-Config.md
+        - Lookup Names Config: Lookup-Names-Config.md
+        - Resources Menu Config: Resources-Menu-Config.md
+        - Schedule Types Config: Schedule-Types-Config.md
+        - Workflow Menu Config: Workflow-Menu-Config.md
+        - Form Button Config: Form-Button-Config.md
+        - Table in Form Config: Table-in-Form-Config.md
+        - Global Setting Configuration: Global-Setting-Configuration.md
+
+
 
 
