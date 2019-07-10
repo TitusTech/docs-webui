@@ -1,0 +1,19 @@
+site_name: Cristal-ISE
+repo_url: https://github.com/TitusTech/docs-webui
+edit_uri: edit/gh-pages/docs
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+extra_css:
+    - css/extra.css
+
+nav:
+    - Overview:
+        - Cristal-iSE Documentation: index.md
+
+
