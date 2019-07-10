@@ -30,21 +30,21 @@ nav:
     - Configuration File Formats:
         - Form Button Config: configurations/Form-Button-Config.md
         - Form Group Config: configurations/Form-Group-Config.md
-        - Form Select (Drop-down) Config: Form-Select-(Drop-down)-Config.md
-        - Icon Settings Config: Icon-Settings-Config.md
-        - Collection Config: Collection-Config.md
-        - Field Config: Field-Config.md
-        - Item Details Config: Item-Details-Config.md
-        - Item Schedule Config: Item-Schedule-Config.md
-        - Item Service Config: Item-Service-Config.md
-        - Item Toolbar Config: Item-Toolbar-Config.md
-        - Lookup Names Config: Lookup-Names-Config.md
-        - Resources Menu Config: Resources-Menu-Config.md
-        - Schedule Types Config: Schedule-Types-Config.md
-        - Workflow Menu Config: Workflow-Menu-Config.md
-        - Form Button Config: Form-Button-Config.md
-        - Table in Form Config: Table-in-Form-Config.md
-        - Global Setting Configuration: Global-Setting-Configuration.md
+        - Form Select (Drop-down) Config: configurations/Form-Select-(Drop-down)-Config.md
+        - Icon Settings Config: configurations/Icon-Settings-Config.md
+        - Collection Config: configurations/Collection-Config.md
+        - Field Config: configurations/Field-Config.md
+        - Item Details Config: configurations/Item-Details-Config.md
+        - Item Schedule Config: configurations/Item-Schedule-Config.md
+        - Item Service Config: configurations/Item-Service-Config.md
+        - Item Toolbar Config: configurations/Item-Toolbar-Config.md
+        - Lookup Names Config: configurations/Lookup-Names-Config.md
+        - Resources Menu Config: configurations/Resources-Menu-Config.md
+        - Schedule Types Config: configurations/Schedule-Types-Config.md
+        - Workflow Menu Config: configurations/Workflow-Menu-Config.md
+        - Form Button Config: configurations/Form-Button-Config.md
+        - Table in Form Config: configurations/Table-in-Form-Config.md
+        - Global Setting Configuration: configurations/Global-Setting-Configuration.md
 
 
 
