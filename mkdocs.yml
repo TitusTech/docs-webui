@@ -28,8 +28,8 @@ nav:
         - Ng Dynamic Forms: Ng-Dynamic-Forms.md
         - Introduction to using PrimeNG’s angular components: Introduction-to-using-PrimeNG-angular-components.md
     - Configuration File Formats:
-        - Form Button Config: Form-Button-Config.md
-        - Form Group Config: Form-Group-Config.md
+        - Form Button Config: configurations/Form-Button-Config.md
+        - Form Group Config: configurations/Form-Group-Config.md
         - Form Select (Drop-down) Config: Form-Select-(Drop-down)-Config.md
         - Icon Settings Config: Icon-Settings-Config.md
         - Collection Config: Collection-Config.md
