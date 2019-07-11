@@ -5,13 +5,13 @@ permalink: /docs/Home
 
 WebUI - Angular front-end
 
-1. [Introduction to WebUI](../Introduction-to-WebUI)
+1. [Introduction to WebUI](Introduction-to-WebUI)
     1. Project Structure
         * Visual structure: discussion on the main components
         * Environment settings of the project.
 1. [Introduction to using PrimeNG’s angular components](../Introduction-to-using-PrimeNG-angular-components)
 
-1. [Services](../Services)
+1. [Services](Services)
     1. Functionality description for the following services:
        * authentication-interceptor.service
        * authorisation.service
@@ -31,7 +31,7 @@ WebUI - Angular front-end
        * util.service
     1. Discussion on pipes
 
-1. [Components](../Components)
+1. [Components](Components)
     1. Functionality description for the following components:
        * breadcrumbs.component
        * item-cards.component
@@ -49,23 +49,23 @@ WebUI - Angular front-end
        * outcome-view.component
        * toolbar-config.component
 
-1. [Guards](../Guards)
+1. [Guards](Guards)
    1. Functionality description for the following:
       * authorisation.guard
       * cristalDetailsguard
       * form-deactivate.guard
 
-1. [Ng-Dynamic-Forms](../Ng-Dynamic-Forms)
+1. [Ng-Dynamic-Forms](Ng-Dynamic-Forms)
     1. Introduction
     1. Rendering JSON model into Form
 
-1. [Creating Protractor Test](../Creating-Protractor-Test)
+1. [Creating Protractor Test](Creating-Protractor-Test)
     1. Introduction on how to create a protractor test (example: Batch Creation)
 
-1. [Deployment to Production](../Deployment-to-Production)
+1. [Deployment to Production](Deployment-to-Production)
     1. Guide in deploying to production
-    
-1. [Config File Formats](../Config-File-Formats)
-1. [Environment Settings](../Global-Setting-Configuration)
-1. [Error Handling](../Error-Handling)
-1. [Multi Level Outcomes](../Multi-Level-Outcomes)
+
+1. [Config File Formats](Config-File-Formats)
+1. [Environment Settings](Global-Setting-Configuration)
+1. [Error Handling](Error-Handling)
+1. [Multi Level Outcomes](Multi-Level-Outcomes)
