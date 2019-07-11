@@ -1,2 +1,2 @@
 # docs-webui
-Docs for https://github.com/TitusTech/webui-lib and https://github.com/TitusTech/base
+Documentation was moved to [https://webui.readthedocs.io/en/latest](https://webui.readthedocs.io/en/latest)

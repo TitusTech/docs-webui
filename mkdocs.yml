@@ -1,0 +1,53 @@
+site_name: WebUI Library
+repo_url: https://github.com/TitusTech/docs-webui
+edit_uri: edit/gh-pages/docs
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+extra_css:
+    - css/extra.css
+
+nav:
+    - Getting Started:
+        - Introduction to WebUI: Introduction-to-WebUI.md 
+        - Creating Protractor Test: Creating-Protractor-Test.md
+        - Deployment to Production: Deployment-to-Production.md
+        - Environment Settings: Environment-Settings.md
+        - Global Setting Service: Global-Setting-Service.md
+        - Multi Level Outcomes: Multi-Level-Outcomes.md
+    - What makes WebUI?: 
+        - Components: Components.md
+        - Services: Services.md
+        - Guards: Guards.md
+        - Error Handling: Error-Handling.md
+        - Ng Dynamic Forms: Ng-Dynamic-Forms.md
+        - Introduction to using PrimeNG’s angular components: Introduction-to-using-PrimeNG-angular-components.md
+    - Configuration File Formats:
+        - Form Button Config: configurations/Form-Button-Config.md
+        - Form Group Config: configurations/Form-Group-Config.md
+        - Form Select (Drop-down) Config: configurations/Form-Select-(Drop-down)-Config.md
+        - Details View Config: configurations/Details-View-Config.md
+        - Icon Settings Config: configurations/Icon-Settings-Config.md
+        - Collection Config: configurations/Collection-Config.md
+        - Field Config: configurations/Field-Config.md
+        - Item Details Config: configurations/Item-Details-Config.md
+        - Item Schedule Config: configurations/Item-Schedule-Config.md
+        - Item Service Config: configurations/Item-Service-Config.md
+        - Item Toolbar Config: configurations/Item-Toolbar-Config.md
+        - Lookup Names Config: configurations/Lookup-Names-Config.md
+        - Resources Menu Config: configurations/Resources-Menu-Config.md
+        - Schedule Types Config: configurations/Schedule-Types-Config.md
+        - Workflow Menu Config: configurations/Workflow-Menu-Config.md
+        - Form Button Config: configurations/Form-Button-Config.md
+        - Table in Form Config: configurations/Table-in-Form-Config.md
+        - Global Setting Configuration: configurations/Global-Setting-Configuration.md
+        - Outcome View Config: configurations/Outcome-View-Config.md
+
+
+
+
