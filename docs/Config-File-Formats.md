@@ -4,7 +4,7 @@ permalink: /docs/Config-File-Formats/
 ---
 
 1. [Form Button Config](../configurations/Form-Button-Config/)
-1. [Form Group Config](configurations/Form-Group-Config/)
+1. [Form Group Config](../configurations/Form-Group-Config/)
 1. [Form Select (Drop-down) Config](configurations/Form-Select-(Drop-down)-Config/)
 1. [Icon Sets Config](configurations/Icon-Sets-Config/)
 1. [Collection Config](configurations/Collection-Config/)
