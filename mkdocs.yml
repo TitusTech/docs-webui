@@ -1,6 +1,6 @@
 site_name: WebUI Library
 repo_url: https://github.com/TitusTech/docs-webui
-edit_uri: edit/gh-pages/docs
+edit_uri: edit/master/docs
 
 theme:
     name: readthedocs
