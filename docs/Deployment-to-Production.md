@@ -6,11 +6,11 @@ permalink: /docs/Deployment-to-Production/
 ### Generate a release
 
 * Go to the webui-lib directory:
-```
+```Shell
 cd ~/workspace/titus/webui-lib
 ```
 * Merge latest changes into `3atech_master` branch:
-```
+```Shell
 git checkout 3atech
 git pull -r
 git checkout 3atech_master
@@ -19,14 +19,14 @@ git merge 3atech
 ```
 
 * Change version number in the 3rd line of all of these files:
-```
+```Shell
 vim package.json 
 vim projects/webui-library/package.json
 vim src/environments/environment.prod.ts
 ```
 
 * Commit changes:
-```
+```Shell
 git status
 git diff
 git add .
@@ -47,7 +47,7 @@ npm publish
 
 Although deploying directly from the development environment works, you can generate an optimized build with additional CLI command line flags, starting with `--prod`:
 
-```
+```Shell
 ng build --prod
 ```
 
