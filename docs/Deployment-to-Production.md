@@ -35,7 +35,7 @@ git push origin HEAD -u
 ```
 
 * Build and publish:
-```
+```Shell
 npm install
 ng build --prod webui-library
 cd dist/webui-library
