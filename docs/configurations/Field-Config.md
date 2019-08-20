@@ -19,6 +19,7 @@ permalink: /docs/configurations/Field-Config/
     {"source": "itemField", "field": "Url", "caption": "URL", "align": "left", "formula": "(value.content === '') ? 'No URL available' : value.content" },
     {"source": "itemField", "field": "FromDate", "caption": "From Date", "align": "center", "format": "dateTime" },
     {"source": "itemField", "field": "ThruDate", "caption": "Thru Date", "align": "center", "format": "dateTime" },
+    {"source": "itemField", "field": "Duration", "caption": "Duration", "align": "center", "format": "timeSpan minutes hours:minutes:seconds plain" },
     {"source": "itemField", "field": "AllDay", "caption": "AllDay", "align": "center", "format": "boolean", "type": "checkBox" },
     {"source": "itemField", "field": "Progress", "caption": "Progress", "align": "center", "type": "ProgressBar"},
     {"source": "itemField", "field": "State", "caption": "State", "align": "center", "icon": "iconSets" },
@@ -53,6 +54,7 @@ permalink: /docs/configurations/Field-Config/
 | `commaSpace` | Value will be formatted to a space following a comma (ex: "A,B,C" to "A, B, C") |
 | `multilineFormat` | For lines with \n just add css class multilineFormat which replaces \n to line breaks |
 | `decimal {scale}` | The value will be displayed with exactly `{scale}` decimal places. For example if we have `format='decimal 2'`, the value will be formatted to 2 decimal places |
+| `timeSpan {fromFormat} {toFormat} {suffix}` | The time value will be displayed and formatted to the specified format with the specified suffix (e.x Time to transform = 42.25, `timeSpan minutes hours:minutes:seconds plain` will output `42m15s`) Where the arguments defined to format the value are: <br>1. `{fromFormat}`: The original format of the time (`minutes` or `seconds`)<br> 2. `{toFormat}`: The output format of the time to be transformed with the pattern: `unitOfTime:unitOfTime:unitOfTime` (e,x `hours:minutes:seconds`), where `unitOfTime` is the unit of time in plural <br> 3. `{suffix}`: An optional parameter, the suffix for every `unitOfTime` which can either be `simple` or `APA`. The `simple` suffix will append `h`, `m`, or `s` to the appropriate `unitOfTime` while `APA` will append APA standard references (`hr`, `min`, `sec`) to the `unitOfTime`. If no suffix was specified, the default suffix '`:`' will be appended instead.<br><br> The string `-spaced` can be appended to the suffix (e.x `plain-spaced` will yield to `42m 15s`) to include spaces between suffixes.
 
 #### `formula`
 
