@@ -20,5 +20,6 @@ permalink: /docs/Config-File-Formats/
 1. [Form Button Config](../configurations/Form-Button-Config)
 1. [Table-in-Form Config](../configurations/Table-in-Form-Config)
 1. [Global Setting Configuration](../configurations/Global-Setting-Configuration/)
+1. [Production Planning Config](../configurations/Production-Planning-Config/)
 
 
