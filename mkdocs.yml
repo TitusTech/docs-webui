@@ -40,9 +40,9 @@ nav:
         - Item Service Config: configurations/Item-Service-Config.md
         - Item Toolbar Config: configurations/Item-Toolbar-Config.md
         - Lookup Names Config: configurations/Lookup-Names-Config.md
-        - Resources Menu Config: configurations/Resources-Menu-Config.md
+        - Root Menu Config: configurations/Root-Menu-Config.md
+        - Menu Items Config: configurations/Menu-Items-Config.md
         - Schedule Types Config: configurations/Schedule-Types-Config.md
-        - Workflow Menu Config: configurations/Workflow-Menu-Config.md
         - Form Button Config: configurations/Form-Button-Config.md
         - Table in Form Config: configurations/Table-in-Form-Config.md
         - Global Setting Configuration: configurations/Global-Setting-Configuration.md
