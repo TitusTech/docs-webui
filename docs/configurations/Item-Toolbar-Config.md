@@ -12,97 +12,101 @@ permalink: /docs/configurations/Item-Toolbar-Config/
   "noForms": {
     "delete": string[],
     "confirm": string[]
-  },
-  "Button": [{
-      "label": string,
-      "icon": string,
-      "iconColor": string,
-      "activityName": string,
-      "actsOnSelected": boolean,
-      "hiddenWhen": string,
-      "subButtons": [{
-        "label": string,
-        "icon": string,
-        "activityName": string,
-        "actsOnSelected": boolean
-      }, {
-        "label": string,
-        "icon": string,
-        "activityName": string,
-        "actsOnSelected": boolean
-      }]
-    }, {
-      "label": string,
-      "icon": string,
-      "iconColor": string,
-      "activityName": string,
-      "actsOnSelected": boolean,
-      "runScript": boolean,
-      "scriptName": string,
-      "message": string,
-      "hiddenWhen": string
-    }]
+  }
 }
 
 ```
-### NoForms
+### noForms
+This config renders dialog boxes instead of side-bar forms for schema-less activities.
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
 | `delete` | `string[]` | Activity names that will trigger the Delete Dialog |
-| `confirm` | `string[]` | Activity names that will trigger the Confirm Dialog |
+| `confirm` | `JSON[]` | List of activity names with special properties that will trigger the Confirm Dialog |
 
-### Button 
-
-| Field | Type | Meaning |
+## confirm field properties
+Activities included in the `confirm` field with the same name, but in different indexes, will be evaluated from top to bottom. If the first activity found did not meet the condition, the next activity will be evaluated and so on and so forth until there are no activities with the same name is left.
+| Property | Type | Meaning |
 | ------------- | ------------- | ------------- |
-| `label` | `string` | Button's label |
-| `icon` | `string` | Icon in the button using fontawesome. Please see [fontawesome](https://fontawesome.com/icons)|
-| `iconColor` | `string` | Color of button's icon |
-| `activityName` | `string` | Assigned activity in the button |
-| `actsOnSelected` | `boolean` | |
-| `hiddenWhen` | `string` | This expression is evaluated during runtime. Depends when the expression returns true then the button is hidden otherwise the button remains visible. |
-| `runScript` | `boolen` | When true then a script will run when the button is clicked. |
-| `scriptName` | `string` | The name of the script to run when runScript is true. |
-| `message` | `string` | |
-| `subButtons` |  | Sub-buttons have same properties as the Button|
+| `activities` | `string[]` | Activity names that will trigger the Confirm Dialog when the `condition` property is truthy |
+| `additionalButtons?` | `JSON[] | undefined` | Additional button to add in the Confirm Dialog; triggers transitions based on name and ID |
+| `condition?` | `string | undefined` | An expression that will be evaluated (must be truthy) to determine when the activity will be assessed as schema-less |
 
 
-**Example**
+## additionalButtons field properties
+NOTE: Yes and No buttons for the dialog are hard coded and will always be present.
+| Property | Type | Meaning |
+| ------------- | ------------- | ------------- |
+| `label` | `string` | Label of the additional dialog button |
+| `icon` | `string` | Fontawesome icon of the button |
+| `transitionName` | `string` | Transition name of the button that will be executed on click event |
+| `transitionID` | `number` | ID of the transition |
+
+**Basic Example**
 ```
 {
   "noForms": {
-    "delete": ["Deactivate", "RemoveMember", "RemoveEvent", "RemoveAddress", "RemovePurchaseOrderRow"],
-    "confirm": ["CUTTING LIST", "BOM", "ASSEMBLY BOARD DRAWING", "SPLICE DRAWINGS", "WorkOrderParts_Finalize"]
+    "delete": [ "Deactivate", "RemoveMember", "RemoveEvent" ],
+    "confirm": [
+      {
+        "activities": [ "PAINTING" ],
+        "additionalButtons": [
+          { "label": "Skip", "icon": "fa fa-fast-forward", "transitionName": "Skip", "transitionID": 1 }
+        ],
+        "condition": "job.activity.name === 'Mask_CreationWorkflow'"
+      },
+      {
+        "activities": [
+          "PLASTER MOLDING",
+          "CLAY MOLDING",
+          "BUST MOLDING",
+          "RETOUCHING"
+        ]
+      }
+    ]
   },
- "Button": [{
-      "label": "Timekeeping",
-            "icon": "fa-clock",
-      "iconColor": "icon-black button-group-right ",
-      "activityName": "New",
-      "actsOnSelected": false,
-      "hiddenWhen": "jobActivityNameArray.includes( 'DONE' ) || jobActivityNameArray.includes( 'Finalize' ) || jobActivityNameArray.includes( 'WorkOrderParts_Finalize' ) || (outcomeData.WorkOrder.State === 'DEACTIVATED')",
-      "subButtons": [{
-        "label": "Start Time",
-        "icon": "fa fa-play icon-green",
-        "activityName": "WorkOrder_StartTimeEmployee",
-        "actsOnSelected": true
-      }, {
-        "label": "End Time",
-        "icon": "fa fa-square icon-red",
-        "activityName": "WorkOrder_EndTimeEmployee",
-        "actsOnSelected": true
-      }]
-    }, {
-      "label": "Print Non-Prod WO",
-      "icon": "fa-print",
-      "iconColor": "icon-black split-button-div button-group-right",
-      "activityName": "NonProdWorkOrder_Print",
-      "actsOnSelected": false,
-      "runScript": true,
-      "scriptName": "NonProdWorkOrder_Print",
-      "message": "Printing Non-Productive WorkOrders...",
-      "hiddenWhen": "!superUsers.includes(loggedInUser) || jobActivityNameArray.length !== 0"
-    }]  
 }
 ```
+
+**Activities with same name Example**
+`Given:` job.activity.name = 'Furniture_CreationWorkflow'
+```
+{
+  "noForms": {
+    "delete": [ "Deactivate", "RemoveMember", "RemoveEvent" ],
+    "confirm": [
+      {
+        "activities": [ "PAINTING" ],
+        "additionalButtons": [
+          { "label": "Skip", "icon": "fa fa-fast-forward", "transitionName": "Skip", "transitionID": 1 }
+        ],
+        "condition": "job.activity.name === 'Mask_CreationWorkflow'"
+      },
+      {
+        "activities": [ "PAINTING" ],
+        "additionalButtons": [
+          { "label": "Skip", "icon": "fa fa-fast-forward", "transitionName": "Skip", "transitionID": 1 }
+        ],
+        "condition": "job.activity.name === 'Statue_CreationWorkflow'"
+      },
+            {
+        "activities": [ "PAINTING" ],
+        "additionalButtons": [
+          { "label": "Skip", "icon": "fa fa-fast-forward", "transitionName": "Skip", "transitionID": 1 }
+        ],
+        "condition": "job.activity.name === 'Toy_CreationWorkflow'"
+      },
+      {
+        "activities": [
+          "PLASTER MOLDING",
+          "CLAY MOLDING",
+          "BUST MOLDING",
+          "RETOUCHING",
+          "PAINTING"
+        ]
+      }
+    ]
+  },
+}
+```
+`Result:` A dialog box without any additional button will be displayed
