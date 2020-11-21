@@ -85,6 +85,8 @@ This expression is evaluated during runtime. If the expression evaluates to true
 | `authService` | | For example: `authService.userRolesMatchAnyOf('Admin','PurchasingAgent')` |
 
 ### Useful methods
+| Method | Meaning |
+| ------------- | ------------- |
 | `authService.userRolesMatchAnyOf('Admin','PurchasingAgent')` | |
 | `thiz.dataStorage.peek('purchasing_isOneApproved')` | |
 
