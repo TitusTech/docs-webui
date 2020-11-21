@@ -65,13 +65,14 @@ permalink: /docs/configurations/Item-Toolbar-Config/
 | `runScript` | `boolen` | When true then a script will run when the button is clicked. |
 | `scriptName` | `string` | The name of the script to run when runScript is true. |
 | `message` | `string` | |
-| `subButtons` |  | Sub-buttons have same properties as the Button|
+| `subButtons` |  | Sub-buttons have same properties as the Button |
 
 ## hiddenWhen
 This expression is evaluated during runtime. If the expression evaluates to true, the button is hidden, otherwise the button remains visible.
 
 ### Available variables
 | Variable | Type | Meaning |
+| ------------- | ------------- | ------------- |
 | `thiz` | | For example: `thiz.couldSetPasswordOf(thiz.selectedUuid, thiz)` |
 | `this` | | For example: `this.tableNames.includes('Parts')` |
 | `hasOutcome` | boolean | For example: `( (hasOutcome) && (outcomeData.Purchasing.State !== 'CLOSED') )` |
