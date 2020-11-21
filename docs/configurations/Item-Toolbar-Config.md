@@ -3,10 +3,10 @@ title: Item Toolbar Config
 permalink: /docs/configurations/Item-Toolbar-Config/
 ---
 
-### Config File
+## Config File
 `src/data/ItemToolbarConfig.json`
 
-### Format
+## Format
 ```
 {
   "noForms": {
@@ -45,14 +45,14 @@ permalink: /docs/configurations/Item-Toolbar-Config/
 }
 
 ```
-### NoForms
+## NoForms
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
 | `delete` | `string[]` | Activity names that will trigger the Delete Dialog |
 | `confirm` | `string[]` | Activity names that will trigger the Confirm Dialog |
 
-### Button 
+## Button 
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
@@ -61,14 +61,34 @@ permalink: /docs/configurations/Item-Toolbar-Config/
 | `iconColor` | `string` | Color of button's icon |
 | `activityName` | `string` | Assigned activity in the button |
 | `actsOnSelected` | `boolean` | |
-| `hiddenWhen` | `string` | This expression is evaluated during runtime. Depends when the expression returns true then the button is hidden otherwise the button remains visible. |
+| `hiddenWhen` | `string` | See [hiddenWhen](#hiddenWhen) below |
 | `runScript` | `boolen` | When true then a script will run when the button is clicked. |
 | `scriptName` | `string` | The name of the script to run when runScript is true. |
 | `message` | `string` | |
 | `subButtons` |  | Sub-buttons have same properties as the Button|
 
+## hiddenWhen
+This expression is evaluated during runtime. If the expression evaluates to true, the button is hidden, otherwise the button remains visible.
 
-**Example**
+### Available variables
+| Variable | Type | Meaning |
+| `thiz` | | For example: `thiz.couldSetPasswordOf(thiz.selectedUuid, thiz)` |
+| `this` | | For example: `this.tableNames.includes('Parts')` |
+| `hasOutcome` | boolean | For example: `( (hasOutcome) && (outcomeData.Purchasing.State !== 'CLOSED') )` |
+| `outcomeData` | | For example: `outcomeData.Purchasing.State === 'CLOSED'` |
+| `parentData` | | For example: `(parentData && parentData.Employee && !(parentData.Employee.State === 'ACTIVE'))` |
+| `jobActivityNameArray` | | For example: `jobActivityNameArray.includes( 'StoreSolution' )` |
+| `collectionMember` | | For example: `collectionMember && Number(collectionMember.Quantity) > 0` or `collectionMember && collectionMember['Default Storage'] === 'Yes'` |
+| `buttonFound` | boolean | |
+| `button` | | For example: `button.activityName === 'UpdatePickList'` |
+| `authService` | | For example: `authService.userRolesMatchAnyOf('Admin','PurchasingAgent')` |
+
+### Useful methods
+| `authService.userRolesMatchAnyOf('Admin','PurchasingAgent')` | |
+| `thiz.dataStorage.peek('purchasing_isOneApproved')` | |
+
+
+## Example
 ```
 {
   "noForms": {
