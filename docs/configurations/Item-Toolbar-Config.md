@@ -73,7 +73,8 @@ This expression is evaluated during runtime. If the expression evaluates to true
 ### Available variables
 | Variable | Type | Meaning |
 | ------------- | ------------- | ------------- |
-| `thiz` | | For example: `thiz.couldSetPasswordOf(thiz.selectedUuid, thiz)` |
+| `thiz` | ItemToolbarComponent | For example: `thiz.couldSetPasswordOf(thiz.selectedUuid, thiz)` |
+| `thiz.showToolbarExport` | boolean | true for item-list and item-collection, false for item-details |
 | `this` | | For example: `this.tableNames.includes('Parts')` |
 | `hasOutcome` | boolean | For example: `( (hasOutcome) && (outcomeData.Purchasing.State !== 'CLOSED') )` |
 | `outcomeData` | | For example: `outcomeData.Purchasing.State === 'CLOSED'` |
