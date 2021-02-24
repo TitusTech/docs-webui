@@ -32,7 +32,7 @@ nav:
         - Form Group Config: configurations/Form-Group-Config.md
         - Form Select (Drop-down) Config: configurations/Form-Select-(Drop-down)-Config.md
         - Details View Config: configurations/Details-View-Config.md
-        - Icon Settings Config: configurations/Icon-Settings-Config.md
+        - Icon Sets Config: configurations/Icon-Sets-Config.md
         - Collection Config: configurations/Collection-Config.md
         - Field Config: configurations/Field-Config.md
         - Item Details Config: configurations/Item-Details-Config.md
@@ -47,6 +47,7 @@ nav:
         - Table in Form Config: configurations/Table-in-Form-Config.md
         - Global Setting Configuration: configurations/Global-Setting-Configuration.md
         - Outcome View Config: configurations/Outcome-View-Config.md
+        - History Config: configurations/History-Config.md
 
 
 
