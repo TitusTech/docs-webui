@@ -19,4 +19,4 @@ Config for displaying p-steps in item details
 
 | Field | Type | Meaning |
 | ------------- | ------------- | ------------- |
-| `hiddenWhen` | `string` | See [hiddenWhen](../configurations/Item-Toolbar-Config/#hiddenWhen) |
+| `hiddenWhen` | `string` | See [hiddenWhen](../Item-Toolbar-Config/#hiddenWhen) |
